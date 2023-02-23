@@ -1,0 +1,50 @@
+.AboutCollege{
+    padding:20px;
+    background-color: rgb(0,0,0);
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius:50px 0 50px 0;
+}
+
+.heightSet{
+    height: 100%;
+    align-self: center !important;
+   
+}
+
+.collegeImg:hover{
+transform: scale(0.9);
+}
+
+.linkOfCollege{
+    text-decoration: none;
+    color:greenyellow;
+}
+.linkOfCollege:hover{
+    color:blue;
+}
+table tr:hover{
+color: greenyellow;
+    
+}
+.nameChange{
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:500px){
+    .AboutCollege p{
+        font-size: small !important;
+    }
+    .AboutCollege{
+        margin: 30px 0;
+    }
+    .atCenter{
+        margin: auto !important;
+    }
+}
+
+@media screen and (max-width:425px){
+    .AboutCollege p{
+        font-size: xx-small !important;
+    }
+}
